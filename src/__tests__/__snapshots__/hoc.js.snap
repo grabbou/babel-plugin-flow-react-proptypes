@@ -2,7 +2,7 @@ exports[`test import-object 1`] = `
 "\"use strict\";
 
 Object.defineProperty(exports, \"__esModule\", {
-	value: true
+  value: true
 });
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }
@@ -12,22 +12,22 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 exports.default = function () {
-	var C = function (_React$Component) {
-		_inherits(C, _React$Component);
+  var C = function (_React$Component) {
+    _inherits(C, _React$Component);
 
-		function C() {
-			_classCallCheck(this, C);
+    function C() {
+      _classCallCheck(this, C);
 
-			return _possibleConstructorReturn(this, (C.__proto__ || Object.getPrototypeOf(C)).apply(this, arguments));
-		}
+      return _possibleConstructorReturn(this, (C.__proto__ || Object.getPrototypeOf(C)).apply(this, arguments));
+    }
 
-		return C;
-	}(React.Component);
+    return C;
+  }(React.Component);
 
-	C.propTypes = {
-		a_prop: require(\"prop-types\").bool.isRequired
-	};
+  C.propTypes = {
+    a_prop: require(\"prop-types\").bool.isRequired
+  };
 
-	return C;
+  return C;
 };"
 `;
